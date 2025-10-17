@@ -1,0 +1,3 @@
+mongodb (uniconnect)password: therealeltech
+db_string :
+mongodb+srv://therealeltech_db_user:<db_password>@cluster0.hynlt1n.mongodb.net/
