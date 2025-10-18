@@ -1,9 +1,14 @@
 const mongoose =  require('mongoose');
+const donenv = require ("dotenv");
+donenv.config();
+
 const connectDB = async() => {
+    
     try{
-        await mongoose.connect("mongodb+srv://therealeltech_db_user:therealeltech@cluster0.hynlt1n.mongodb.net/", {
-            useNewUrlParser:true,
-            useUnifiedTopology:true
+        await mongoose.connect(process.env.MONGU_URL, {
+            //-----------WARNINGS---------------
+            //useNewUrlParser:true,
+            //useUnfiedTopology:true
         });
         console.log("Mongoose Db Connected Successfully");
     }catch(error){

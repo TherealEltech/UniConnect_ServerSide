@@ -1,3 +1,7 @@
 mongodb (uniconnect)password: therealeltech
 db_string :
 mongodb+srv://therealeltech_db_user:<db_password>@cluster0.hynlt1n.mongodb.net/
+mongodb+srv://therealeltech_db_user:<db_password>@cluster0.hynlt1n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+my_IP: 192.168.1.166
+postman: https://app.getpostman.com/join-team?invite_code=3a4423ea1091f9e278ad3cd726a3ee3618ef31da83573583d4adfe2925ab52cf
